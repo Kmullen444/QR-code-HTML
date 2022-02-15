@@ -32,9 +32,16 @@ body {
   background: hsl(0, 0%, 100%);
   flex-direction: column;
   padding: 1.3rem;
-  width: 320px;
+  width: 80%;
   border-radius: 1rem;
 }
+
+@media (min-width: 950px){
+  .container {
+    width: 18%;
+  }
+}
+
 
 .qr-code {
   border-radius: 1rem;
